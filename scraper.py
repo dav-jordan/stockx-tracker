@@ -1,12 +1,18 @@
 import requests
 from bs4 import BeautifulSoup
 
+# open txt file containing the api urls of products to track
+urls = open("products.txt")
+
 # set user agent and source url
 headers = {
-    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36'}
-URL = 'https://stockx.com/search/sneakers?s=Jordan%201%20Retro%20High%20Satin%20Snake%20Chicago'
+    'User-Agent': 'YOUR USER AGENT'
+    }
+URL = 'https://stockx.com/api/products/e90e1888-61f0-4681-8379-a4706e491235/activity?state=480&currency=USD&limit=10&page=1&sort=createdAt&order=DESC&country=US'
 
 # send request for url
 page = requests.get(URL, headers=headers)
 
 soup = BeautifulSoup(page.content, 'html.parser')
+
+print(soup)
