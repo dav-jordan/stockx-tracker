@@ -1,1 +1,2 @@
-Yeezy Zebra:https://stockx.com/api/products/e90e1888-61f0-4681-8379-a4706e491235/activity?state=480&currency=USD&limit=10&page=1&sort=createdAt&order=DESC&country=US
+Yeezy Zebra,https://stockx.com/api/products/e90e1888-61f0-4681-8379-a4706e491235/activity?state=480&currency=USD&limit=10&page=1&sort=createdAt&order=DESC&country=US
+Jordan 1 mid Chicago toe,https://stockx.com/api/products/3a4bce78-ff19-4e0b-b383-da6cc2c46fd0/activity?state=480&currency=USD&limit=10&page=1&sort=createdAt&order=DESC&country=US
